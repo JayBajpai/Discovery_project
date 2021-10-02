@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+body{
+    margin: 0%;
+    padding: 0%;
+    height:100% ;
+    width: 100%;
+    background-color: black;
+}
+
+.cards {
+display: flex;
+flex-wrap: wrap;
+align-items: flex-start;
+flex-direction: row;
+margin-top:15%
+}
+.cards img {
+/*margin: 10px;
+border: 3px solid #000;
+box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3); 
+max-width: 23vw;*/
+cursor: pointer;
+    margin-top: 80px;
+    height: 200px;
+    cursor: pointer;
+    padding: 5px; 
+	
+}
+.card-body>p,h6{
+	color: white;
+	margin-bottom: 1px;
+}
+.card-body{
+	padding: 0 1rem;
+}
+.mx-auto{
+    height:50px;
+}
+.navbar.top-bar {
+	border-radius: 0;
+	padding: 32px 0;
+	z-index: 16;
+}
+.navbar-toggler {
+	border: 1px solid #fff;
+	color: #fff;
+	position: absolute;
+	right: 21px;
+}
+.sps {
+	padding: 1em .5em;
+	position: fixed;
+	top: 0;
+	left: 0;
+	transition: all 0.25s ease;
+	width: 100%;
+}
+.sps--abv {
+	background-color: transparent;
+	color: #000;
+}
+.sps--blw {
+	background-color: #fff;
+	color: #fff;
+}
+.top-bar a.navbar-brand {
+	color: #fff;
+	font-size: 26px;
+	font-weight: 800;
+	padding: 5px 0 0 10px;
+	text-transform: uppercase;
+}
+.sps--blw.top-bar a.navbar-brand {
+	color: #000;
+}
+.top-bar a.navbar-brand span {
+	color: #0297ff;
+}
+.top-bar .nav-link {
+	color: #fff;
+	font-size: 16px;
+	font-weight: 500;
+	padding: 12px 18px!important;
+}
+.sps--blw.top-bar .nav-link {
+	color: #000
+}
+.top-bar .navbar-nav .nav-item {
+	margin: 0
+}
+.top-bar .nav-link:hover, .top-bar .nav-item.active a {
+	color: #fff;
+	border-bottom: 2px solid #fff;
+	border-radius: 0;
+}
+.sps--blw.top-bar .nav-link:hover, .sps--blw.top-bar .nav-item.active a {
+	color: #0297ff;
+	border-bottom: none;
+	border-radius: 0;
+}
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#footer {
+    background: rgba(15, 14, 14, 0.63) !important;
+    margin-top: 5%;
+}
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: black;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	/* -webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease; */
+	
+}
+
+.c-site-foot-menu__link:hover {
+    border-bottom: 1px solid #fff;
+	transition: transform .9s cubic-bezier(.19,1,.22,1);
+
+}
+
+.c-site-foot-menu__item:not(:last-child) {
+    margin-bottom: .25rem;
+}
+
+.c-site-foot-menu__link:not(.c-site-foot-menu__link--email):after {
+	content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: currentColor;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .9s cubic-bezier(.19,1,.22,1);
+}
+
+
+.list-unstyled {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+.footer_logo{
+    border-style: none;
+    height: 40px;
+}
+.col-md-3, .col-sm-3, .col-xs-12{
+	color: white;
+}
+
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	/* -webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease; */
+
+}
+#footer ul.quick-links li:hover{
+	/* padding: 3px 0;
+	margin-left:5px;
+	font-weight:700; */
+}
+.h6{
+    text-align: left;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
