@@ -1,0 +1,301 @@
+body{
+    overflow-x: hidden;
+    padding: 0px;
+    margin: 0px;
+}
+intro{
+	float: left;
+	width:100%;
+	display: flex;
+	align-items:center;
+	height:100%;
+	position: relative;
+	z-index: 1;
+	height: 256px;
+}
+.intro.intro-small{
+	height: 60%;
+}
+.img{
+    vertical-align: middle;
+    border-style: none;
+    height: 37px;
+    }
+
+    .center-image {
+      display: flex;
+      justify-content: center;
+    }
+
+    .intro-bg{
+        background:url("../assets/dlc-pic.jpg");
+        background-repeat:no-repeat;
+        background-position: center center;
+        background-size:cover;
+    }
+    .caption-container{
+        width:50rem;
+        margin:0 auto;
+    }
+    .caption-two-panel{
+        display: flex;
+        align-items:center;
+    }
+    .intro h1{
+        font-weight: 100;
+        margin-bottom: 0px !important;
+        margin-top: 0px !important;
+    }
+    .intro-caption .btn i{
+        float: left;
+        margin-right:15px;
+    }
+    .intro .carousel-item{
+        height: 100vh;
+    }
+    .intro .carousel-item::before{
+        content:"";
+        position: absolute;
+        width:100%;
+        height: 100vh;
+    }
+    
+    .navbar-expand-md .navbar-nav .nav-link{
+        color: #fff;
+        margin-right: 3rem;
+    }
+    .nav-link:hover {
+        border-bottom: 1px solid #fff;
+    }
+    
+    .intro  .carousel-caption{
+        top:38%;
+    }
+    
+    .carousel-caption {
+        left: 10%;
+        right: inherit;
+    }
+    .welcomeDescription{
+        display:flex;
+        height:35%;
+        width:70%;
+        /* border:3px solid violet; */
+        font-size:1.4vw;
+        font-family: messina-sans;
+        margin-top: 60px;
+        margin-left: 18%;
+        font-size: 35px;
+        transform: translate(0px, 0px);
+        text-align: center;
+    }
+    .welcome{
+        display:flex;
+        height: 135vh;
+        width: 100vw;
+        /* border:2px solid blue; */
+        flex-direction:row;
+        background-image: url("../assets/home/background.jpeg");
+        background-position: center;
+    }
+    
+    .welcomeLeft{
+        display:flex;
+        flex-direction:column;
+        margin-top: 7%;
+        height:90%;
+        width:40%;
+        margin-left:7%;
+        /* border:3px solid red; */
+    }
+    .welcomeHead{
+        display: flex;
+        height:12%;
+        width:100%;
+        /* border:3px solid green; */
+    }
+    .welcomeHead1{
+        display: flex;
+        font-size: 3vw;
+        
+        /* width:100%; */
+        /* border: 2px solid blue; */
+    }
+    
+    .welcomeDescription2{
+        display:flex;
+        height:35%;
+        width:100%;
+        /* border:3px solid violet; */
+        font-size:1.4vw;
+        font-family: messina-sans;
+    }
+    .welcomeRight{
+        margin-top: 7%;
+        display:flex;
+        height:90%;
+        width:50%;
+        /* border:3px solid green; */
+    }
+    
+    .wmainImage{
+        display:flex;
+        height:73%;
+        width:70%;
+        margin-left:15%;
+        /* border: 2px solid brown; */
+        background-position: center center;
+        background-image: url("../assets/dlc1.jpg");
+        background-position-x:center center;
+        /* transform: scaleX(1.5); */
+    }
+    .section2-animation-container {
+        background-color: #fff;
+        padding-bottom: 125px;
+    }
+    
+    .section2-container-heading {
+        font-size: 4em;
+        margin: 5% 0 5% 15%;
+        /* margin-bottom: 5%; */
+    }
+    
+    .slider {
+        height: 100vh;
+        margin: auto;
+        width: 100%;
+        /* border: 10px solid black; */
+        overflow: hidden;
+    }
+    /*slide track */
+    .slide-track {
+        display: flex;
+        height: 100%;
+        /* total width for 12 images */
+        width: calc(450px * 40);
+        /* border: 10px solid blue; */
+        animation: scroll 120s linear infinite;
+    }
+    .slide {
+        height: 100%;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        position: relative;
+        align-items: center;
+        margin: 0 7px;
+        /* border: 10px solid red; */
+    }
+    
+    .animation-img {
+        width: 100%;
+        height: 95%;
+        /* border: 3px solid yellow; */
+    }
+    
+    .animation-info {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        align-self: flex-end;
+        margin: 8%;
+        /* border: 5px solid brown; */
+        justify-content: space-between;
+        height: 15%;
+    }
+    
+    .animation-heading {
+        font-size: 1.1em;
+    }
+    
+    .animation-para {
+        font-size: 1.0em;
+    }
+    .section-img{
+        display:flex;
+        align-content: center;
+        justify-content: center;
+    }
+
+    /*-----------------------------------------------------------------*/
+
+    /********************* animation part **************************/
+.section2-animation-container {
+    background-color: #fff;
+}
+
+.section2-container-heading {
+    font-size: 3em;
+    margin: 5% 0 5% 7%;
+    /* margin-bottom: 5%; */
+}
+
+.slider {
+    height: 80vh;
+    margin: auto;
+    width: 100%;
+    /* border: 10px solid black; */
+    overflow: hidden;
+}
+/*slide track */
+.slide-track {
+    display: flex;
+    height: 100%;
+    /* total width for 12 images */
+    width: calc(300px * 40);
+    /* border: 10px solid blue; */
+    animation: scroll 145s linear infinite;
+}
+.slide {
+    height: 100%;
+    width: 5%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin: 0 7px;
+    /* border: 10px solid red; */
+}
+
+.animation-img {
+    width: 460px;
+    height: 480px;
+    /* border: 3px solid yellow; */
+}
+
+.animation-info {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-self: flex-end;
+    margin: 8%;
+    /* border: 5px solid brown; */
+    justify-content: space-between;
+    height: 15%;
+}
+
+.animation-heading {
+    font-size: 1.1em;
+}
+
+.animation-para {
+    font-size: 1.0em;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-350px * 25));
+    }
+}
+.after-carousel{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+/*----------------------------------------------------------------------*/
